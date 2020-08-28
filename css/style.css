@@ -1,4 +1,39 @@
 h1 {
-    color: #532b78;
+    color: #bababb;
 }
 
+body {
+    margin: 20px;
+    margin-top: 84px;
+    background: rgb(83,43,120,1)
+    /*background-image: url(/img/pitch.jpg);*/
+}
+
+nav {
+    background: #240046;
+}
+
+li {
+    list-style-type: none;
+}
+
+p, h2, h4, li {
+    color: #240046;
+}
+
+code {
+    background: rgb(186,186,187);
+    padding: 3px;
+    border-radius: 5px;
+
+}
+
+.post {
+    background: rgb(186,186,187,0.8);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+footer {
+    margin-top: 10px;
+}
