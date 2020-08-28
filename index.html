@@ -1,18 +1,38 @@
 <!DOCTYPE html>
 <html>
   <head>
-      <link rel="stylesheet" href="css/style.css"> 
-      <link rel="stylesheet" href="_config.yml">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">   
+    <link rel="stylesheet" href="/css/style.css">  
+    <link rel="stylesheet" href="_config.yml">
   </head>
   <body>
       <header>
+        <h1>Reese Hudson's Blog</h1>
       </header>
-      <h1>Hello World</h1>
-      <p>I'm hosted with GitHub Pages.</p>
 
-      <h2>About Me</h2>
-      <p>I was born and grew up in Louisivlle KY. I'm a licensed USSF Soccer Referee. I'm also an engineer.
-          My favorite hobbies are hiking, board games, and cooking.
-      </p>
+      <h2>My First Blog Post!</h2>
+      <h4><date>8/27/2020</date></h4>
+        <p>The first week of bootcamp has been full of ups and downs, aha moments and bouts of confusion. </p>
+        <p>I've been very grateful for how responsive and eager everyone is to jump in to tackle problems in the help channel. 
+            The fact that we're all brand new to this field but still working through problems together and actually finding 
+            solutions is very encouraging. My first major aha moment was when I was able to understand the 
+            proper order of operations on how to make changes to the master branch. My inital understanding was that the 
+            pull request started your local branch, then you would make your changes locally, commit the changes, and push
+            your commits back up to the remote server. After reviewing the documentation and exercises again I now see how 
+            these commands truly work:</p> 
+          <ul>
+            <li><code>$git branch</code>: will open a new branch in your repo</li>
+            <li><code>$git fetch</code>: will scan a remote server for differences between your local repo and the remote repo</li>
+            <li><code>$git pull</code>: will actually download the commits that you do not have in your local repo</li>
+            <li><code>$git merge</code>: will combine your changes into the master both locally and remotely</li>
+          </ul>
+        <p>Next week I'm looking forward to knocking off the rust and continuing to build on the knowledge of HTML and CSS that 
+            I learned in the Intro to Web Developement class this past spring.</p>
   </body>
+  <footer>      
+    <p><i>I'm hosted with <a href="https://pages.github.com/">GitHub Pages</a>.</i></p>
+  </footer>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
 </html>
