@@ -1,3 +1,10 @@
+/* color palette 
+    dark purple:    
+    black:          
+    light grey:     
+
+*/
+
 h1 {
     color: #bababb;
 }
@@ -5,12 +12,16 @@ h1 {
 body {
     margin: 20px;
     margin-top: 84px;
-    background: rgb(83,43,120,1)
+    background: rgb(83,43,120,1);
     /*background-image: url(/img/pitch.jpg);*/
 }
 
 nav {
     background: #240046;
+}
+
+main{
+    margin-left: 200px;
 }
 
 li {
@@ -28,7 +39,7 @@ code {
 
 }
 
-.post {
+article {
     background: rgb(186,186,187,0.8);
     border-radius: 10px;
     padding: 10px;
@@ -36,4 +47,62 @@ code {
 
 footer {
     margin-top: 10px;
+    margin-left: 200px;
+
+}
+
+/* Add margin between blog posts */
+article + article {
+    margin-top: 1em;
+}
+
+
+/* The sidebar menu */
+.sidebar {
+    height: 100%; /* Full-height: remove this if you want "auto" height */
+    width: 200px; /* Set the width of the sidebar */
+    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    background-color: #111; /* Black */
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 24px;
+  }
+  
+  li {
+      width: 100%;
+  }
+
+  /* The navigation menu links */
+  .sidebar a {
+    padding: 6px 6px 6px 6px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #bababb;
+    margin-left: 12px;
+  }
+  
+  /* When you mouse over the navigation links, change their color */
+  .sidebar a:hover {
+    color: #f1f1f1;
+  }
+  
+.sidebar ul { 
+    padding-top: 60px;
+    padding-left: 10px;
+    list-style-type: none;
+}
+
+li i {
+    height: 14px;
+    width: 14px;
+    color: #bababb;
+    vertical-align: 15%;
+    text-align: center;
+}
+
+.sidebar li {
+
+    padding: 6px 6px;
 }
