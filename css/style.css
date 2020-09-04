@@ -1,9 +1,13 @@
 /* color palette 
-    dark purple:    
+    dark purple:    #240046 
     black:          
     light grey:     
 
 */
+
+.purple-text {
+    color: #240046;
+}
 
 h1 {
     color: #bababb;
@@ -57,24 +61,17 @@ article + article {
 }
 
 
-/* The sidebar menu */
 .sidebar {
-    height: 100%; /* Full-height: remove this if you want "auto" height */
-    width: 200px; /* Set the width of the sidebar */
-    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
-    z-index: 1; /* Stay on top */
-    top: 0; /* Stay at the top */
+    height: 100%; 
+    width: 200px; 
+    position: fixed;
+    z-index: 1;
+    top: 0;
     left: 0;
-    background-color: #111; /* Black */
-    overflow-x: hidden; /* Disable horizontal scroll */
+    background-color: #111111;
     padding-top: 24px;
   }
-  
-  li {
-      width: 100%;
-  }
 
-  /* The navigation menu links */
   .sidebar a {
     padding: 6px 6px 6px 6px;
     text-decoration: none;
@@ -83,7 +80,6 @@ article + article {
     margin-left: 12px;
   }
   
-  /* When you mouse over the navigation links, change their color */
   .sidebar a:hover {
     color: #f1f1f1;
   }
@@ -102,7 +98,6 @@ li i {
     text-align: center;
 }
 
-.sidebar li {
-
+.sidebar ul li {
     padding: 6px 6px;
 }
