@@ -5,8 +5,46 @@
 
 */
 
+a {
+    color: #240046;
+}
+
+.tech-stack {
+    max-width: 100%;
+    align-content: center;
+    clear: left;
+    padding: 25px;
+}
+
+.tech-stack a {
+    max-width: 33%;
+    display: inline-block;
+}
+
+.tech-stack img {
+    max-width: 90%;
+    margin: 12px;
+}
+
+iframe {
+    display: block;
+    border-radius: 5px;
+}
+
+a + iframe {
+    margin-top: 10px;
+}
+
 .purple-text {
     color: #240046;
+}
+
+.grey-text {
+    color: #bababb;
+}
+
+.grey-text:hover{
+    color: #f1f1f1;
 }
 
 h1 {
@@ -32,7 +70,7 @@ li {
     list-style-type: none;
 }
 
-p, h2, h4, li {
+p, h2, h3, h4, li {
     color: #240046;
 }
 
@@ -46,10 +84,12 @@ code {
 article {
     background: rgb(186,186,187,0.8);
     border-radius: 10px;
-    padding: 10px;
+    padding: 20px;
 }
 
 footer {
+    padding: 10px;
+    color: rgb(186,186,187);
     margin-top: 10px;
     margin-left: 200px;
 
@@ -72,7 +112,7 @@ article + article {
     padding-top: 24px;
   }
 
-  .sidebar a {
+.sidebar a {
     padding: 6px 6px 6px 6px;
     text-decoration: none;
     font-size: 20px;
@@ -80,7 +120,7 @@ article + article {
     margin-left: 12px;
   }
   
-  .sidebar a:hover {
+.sidebar a:hover {
     color: #f1f1f1;
   }
   
@@ -101,3 +141,8 @@ li i {
 .sidebar ul li {
     padding: 6px 6px;
 }
+
+i + a {
+    margin-left: 12px;
+}
+
