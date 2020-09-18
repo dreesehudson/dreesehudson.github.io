@@ -64,6 +64,7 @@ nav {
 
 main{
     margin-left: 200px;
+    margin-top: 168px;
 }
 
 li {
@@ -125,7 +126,7 @@ article + article {
   }
   
 .sidebar ul { 
-    padding-top: 60px;
+    padding-top: 140px;
     padding-left: 10px;
     list-style-type: none;
 }
@@ -160,4 +161,16 @@ i + a {
 
 .project-box {
     align-items: center;
+}
+
+ul {
+    padding-top: 12px;
+}
+
+#headshot {
+    margin: 10px 10px 10px 10px;
+    display: inline-flex;
+    border-radius: 100%;
+    width: 120px;
+    height:120px;
 }
