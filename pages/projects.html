@@ -5,82 +5,164 @@
     <title>Reese Hudson's Blog</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
         integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-    <link rel="stylesheet" href="/css/style.css">
-    <link rel="stylesheet" href="_config.yml">
+    <link rel="stylesheet" href="/css/purple-theme.css">
+    <!-- <link rel="stylesheet" href="/css/style.css"> -->
     <script src="https://kit.fontawesome.com/3e3b3c78b6.js" crossorigin="anonymous"></script>
-
 </head>
 
-<body>
+<body class="bg-secondary">
     <header>
-        <nav class="navbar fixed-top">
-            <h1>Reese Hudson's Blog</h1>
-
+        <!-- Nav Bar -->
+        <nav class="navbar navbar-expand-sm navbar-secondary bg-dark fixed-top">
+            <a class="navbar-brand text-secondary btn btn-outline-secondary btn-lg" href="#">
+                RH
+            </a>
+            <button class="navbar-toggler text-secondary bg-light" type="button" data-toggle="collapse"
+                data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse float-right" id="navbarNav">
+                <ul class="navbar-nav py-3 ml-auto">
+                    <li class="text-secondary mx-3"><i class="fas fa-angle-double-right mr-2"></i><a
+                            class="text-secondary" href="/index.html">Blog</a></li>
+                    <li class="text-secondary mx-3"><i class="fas fa-project-diagram mr-2"></i></i><a
+                            class="text-secondary" href="/pages/projects.html">Projects</a></li>
+                    <li class="text-secondary mx-3"><i class="fas fa-link mr-2"></i><a class="text-secondary"
+                            href="/pages/links.html">Links</a></li>
+                </ul>
+            </div>
         </nav>
-
     </header>
-    <!-- Side navigation -->
-    <div class="sidebar">
-        <ul>
-            <li><i class="fas fa-angle-double-right"></i><a href="/index.html">Blog</a></li>
-            <li><i class="fas fa-portrait"></i><a href="/pages/about.html">About</a></li>
-            <li><i class="fas fa-layer-group"></i><a href="/pages/tech-stack.html">Tech Stack</a></li>
-            <li><i class="fas fa-project-diagram"></i></i><a href="/pages/projects.html">Projects</a></li>
-            <li><i class="fas fa-link"></i><a href="/pages/links.html">Links</a></li>
-            <li><i class="fas fa-comment-dots"></i><a href="/pages/contact.html">Contact</a></li>
-        </ul>
 
-    </div>
-
-    <main>
-        <article>
-            <h2>Projects</h2>
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm">
-                        <div class="project-box"><a href="https://dreesehudson.github.io/countdown-timer/"><img
-                                    class='project-img mx-auto d-block' src="/img/countdown-timer.png"></a>
-                            <a href="https://github.com/dreesehudson/countdown-timer"><h5 class="project-title text-center">Countdown Timer</h5></a>
-                        </div>
-                    </div>
-                    <div class="col-sm">
-                        <div class="project-box">
-                            <a href="https://dreesehudson.github.io/digital-clock/"><img
-                                    class='project-img mx-auto d-block' src="/img/digital-clock.png"></a>
-                            <a href="https://github.com/dreesehudson/digital-clock"><h5 class="project-title text-center">Digital Clock</h5></a>
-                        </div>
+    <!-- Project Gallery -->
+    <div class="container-fluid mt-5">
+        <h2 class="mt-5 pt-5">Project Portfolio</h2>
+        <div class="row mt-4">
+            <div class="col-sm">
+                <div class="card bg-secondary border-0" style="width: 18rem;">
+                    <img style="border-radius: 100%" src="https://place-hold.it/180x180/grey/black" class="card-img-top"
+                        alt="countdown thumbnail">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">Weather API</h5>
+                        <p class="card-text">JavaScript Updating without page refresh.</p>
+                        <a href="https://dreesehudson.github.io/countdown-timer/" class="btn btn-primary">Go
+                            somewhere</a>
+                        <a href="https://github.com/dreesehudson/countdown-timer" class="btn btn-primary"><i
+                                class="fab fa-github"></i></a>
                     </div>
                 </div>
             </div>
+
+            <div class="col-sm">
+                <div class="card bg-secondary border-0" style="width: 18rem;">
+                    <img style="border-radius: 100%" src="/img/mind-reader.jpg" class="card-img-top"
+                        alt="countdown thumbnail">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">Mind Reader</h5>
+                        <p class="card-text">JavaScript Updating without page refresh.</p>
+                        <a href="https://dreesehudson.github.io/countdown-timer/" class="btn btn-primary">Go
+                            somewhere</a>
+                        <a href="https://github.com/dreesehudson/countdown-timer" class="btn btn-primary"><i
+                                class="fab fa-github"></i></a>
+                    </div>
+                </div>
             </div>
-    </main>
-    <!-- <ul>
-            <li>Code Wars Profile <img src="https://www.codewars.com/users/dreesehudson/badges/micro"></li>
-            <li>Basic Blog</li>
-            <li>Digital Clock</li>
-            <li>Countdown Timer</li>
-        </ul> -->
-</body>
-<footer>
-    <h6>Contact Me</h6>
-    <div>
-        <ul>
-            <li><i class="fas fa-paper-plane"></i><a class="grey-text"
-                    href="mailto:david.reese.hudson@gmail.com">david.reese.hudson@gmail.com</a></li>
-            <li><i class="fas fa-code-branch"></i><a class="grey-text" href="https://github.com/dreesehudson">Github</a></li>
-            <li><i class="fab fa-linkedin"></i><a class="grey-text" href="https://linkedin.com/dreesehudson">LinkedIn</a></li>
-        </ul>
+            <div class="col-sm">
+                <div class="card bg-secondary border-0" style="width: 18rem;">
+                    <img style="border-radius: 100%" src="/img/countdown-timer.png" class="card-img-top"
+                        alt="countdown thumbnail">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">Campaign Components</h5>
+                        <p class="card-text">JavaScript Updating without page refresh.</p>
+                        <a href="https://dreesehudson.github.io/countdown-timer/" class="btn btn-primary">Go
+                            somewhere</a>
+                        <a href="https://github.com/dreesehudson/countdown-timer" class="btn btn-primary"><i
+                                class="fab fa-github"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm">
+                <div class="card bg-secondary border-0" style="width: 18rem;">
+                    <img style="border-radius: 100%" src="/img/countdown-timer.png" class="card-img-top"
+                        alt="countdown thumbnail">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">Countdown Timer</h5>
+                        <p class="card-text">JavaScript Updating without page refresh.</p>
+                        <a href="https://dreesehudson.github.io/countdown-timer/" class="btn btn-primary">Go
+                            somewhere</a>
+                        <a href="https://github.com/dreesehudson/countdown-timer" class="btn btn-primary"><i
+                                class="fab fa-github"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm">
+                <div class="card bg-secondary border-0" style="width: 18rem;">
+                    <img style="border-radius: 100%" src="/img/countdown-timer.png" class="card-img-top"
+                        alt="countdown thumbnail">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">Digital Clock</h5>
+                        <p class="card-text">JavaScript Updating without page refresh.</p>
+                        <a href="https://dreesehudson.github.io/countdown-timer/" class="btn btn-primary">Go
+                            somewhere</a>
+                        <a href="https://github.com/dreesehudson/countdown-timer" class="btn btn-primary"><i
+                                class="fab fa-github"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm">
+                <div class="card bg-secondary border-0" style="width: 18rem;">
+                    <img style="border-radius: 100%" src="/img/countdown-timer.png" class="card-img-top"
+                        alt="countdown thumbnail">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">Basic Blog</h5>
+                        <p class="card-text">JavaScript Updating without page refresh.</p>
+                        <a href="https://dreesehudson.github.io/countdown-timer/" class="btn btn-primary">Go
+                            somewhere</a>
+                        <a href="https://github.com/dreesehudson/countdown-timer" class="btn btn-primary"><i
+                                class="fab fa-github"></i></a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
     </div>
-    <p><i>I'm hosted with <a href="https://pages.github.com/">GitHub Pages</a>.</i></p>
-</footer>
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-    crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
-    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
-    crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
-    integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
-    crossorigin="anonymous"></script>
+
+
+    <!-- Footer with contact Info -->
+    <footer class="bg-dark py-3 mt-3" style="position: relative; bottom: 0px;">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col">
+                    <h6 class="text-secondary text-center"> Contact Me</h6>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <ul class="nav list-unstyled justify-content-center">
+                        <li class="nav-item px-3"><i class="fas fa-paper-plane text-secondary" style="width:15px"></i><a
+                                class="text-secondary pl-2"
+                                href="mailto:david.reese.hudson@gmail.com">david.reese.hudson@gmail.com</a></li>
+                        <li class="nav-item px-3"><i class="fas fa-code-branch text-secondary" style="width:15px"></i><a
+                                class="text-secondary pl-2" href="https://github.com/dreesehudson">Github</a>
+                        </li>
+                        <li class="nav-item px-3"><i class="fab fa-linkedin text-secondary" style="width:15px"></i><a
+                                class="text-secondary pl-2" href="https://linkedin.com/dreesehudson">LinkedIn</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
+</body>
 
 </html>
