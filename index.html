@@ -5,139 +5,265 @@
     <title>Reese Hudson's Blog</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
         integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-    <link rel="stylesheet" href="/css/style.css">
-    <link rel="stylesheet" href="_config.yml">
+    <link rel="stylesheet" href="/css/purple-theme.css">
+    <!-- <link rel="stylesheet" href="/css/style.css"> -->
     <script src="https://kit.fontawesome.com/3e3b3c78b6.js" crossorigin="anonymous"></script>
 </head>
 
-<body>
+<body class="bg-secondary">
     <header>
-        <nav class="navbar fixed-top">
-            <h1>Reese Hudson's Blog</h1>
-
+        <!-- Nav Bar -->
+        <nav class="navbar navbar-expand-sm navbar-secondary bg-dark fixed-top">
+            <a class="navbar-brand text-secondary btn btn-outline-secondary btn-lg" href="#">
+                RH
+            </a>
+            <button class="navbar-toggler text-secondary bg-light" type="button" data-toggle="collapse"
+                data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse float-right" id="navbarNav">
+                <ul class="navbar-nav py-3 ml-auto">
+                    <li class="text-secondary mx-3"><i class="fas fa-angle-double-right mr-2"></i><a
+                            class="text-secondary" href="/index.html">Blog</a></li>
+                    <li class="text-secondary mx-3"><i class="fas fa-project-diagram mr-2"></i></i><a
+                            class="text-secondary" href="/pages/projects.html">Projects</a></li>
+                    <li class="text-secondary mx-3"><i class="fas fa-link mr-2"></i><a class="text-secondary"
+                            href="/pages/links.html">Links</a></li>
+                </ul>
+            </div>
         </nav>
-
     </header>
-    <!-- Side navigation -->
-    <div class="sidebar">
-        <ul>
-            <li><i class="fas fa-angle-double-right"></i><a href="/index.html">Blog</a></li>
-            <li><i class="fas fa-portrait"></i><a href="/pages/about.html">About</a></li>
-            <li><i class="fas fa-layer-group"></i><a href="/pages/tech-stack.html">Tech Stack</a></li>
-            <li><i class="fas fa-project-diagram"></i></i><a href="/pages/projects.html">Projects</a></li>
-            <li><i class="fas fa-link"></i><a href="/pages/links.html">Links</a></li>
-            <li><i class="fas fa-comment-dots"></i><a href="/pages/contact.html">Contact</a></li>
-        </ul>
 
+    <!-- Post Main Section of Page -->
+    <div class="container mt-5 mx-3">
+        <div class="row">
+            <div class="col-sm">
+                <div class="mt-5 card bg-light">
+                    <div class="card-title pl-2 pt-2">
+                        <h2>Week 5 - JavaScript and Bootstrap 4</h2>
+                        <date>9/27/2020</date>
+                    </div>
+                    <div class="card-body">
+                        <p>
+                            It was very exciting to get started with the in-person portion of the bootcamp this week.
+                            Setting up the learning space in a way to maximize our capability to learn was very
+                            beneficial, but I think one drawback that each student faced was the tendency to compare
+                            each other's progress or starting point against each other. By the end of the week, through
+                            different exercises and the very impactful discussion led by Dr. Murphy, I think the entire
+                            cohort was able to lower our guard and fear of showing weakness which will give every one of
+                            us the ability to progess at a greater rate and become better programmers.
+                        </p>
+                        <p>
+                            I'm looking forward to learn more about how to utilize JavaScript and JSON to bring data
+                            from external sources to make our websites more beneficial and serve a purpose besides
+                            displaying hard coded information. I'd also like to continue learning about how to better
+                            utilize Bootstrap to work with images. I have a basic understanding but that was the main
+                            area where I found myself falling back to using custom CSS to handle image formatting.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm">
+                <div class="mt-3 card bg-light">
+                    <div class="card-title pl-2 pt-2">
+                        <h2>Week 4 - JavaScript (Round 2)</h2>
+                        <date>9/19/2020</date>
+                    </div>
+                    <div class="card-body">
+                        <p>It's the final day of Prework! While it has felt like I've been drinking straight from a
+                            firehose up until now, I know that the intensity is about to jump up to another level. It
+                            was a huge benefit to have a small background in the different topics that we have been we
+                            learning about in Prework because of the Intro to Web Development class, but there were
+                            still new problems to solve with each and every topic. My biggest challenge was being able
+                            to debug and understand why JavaScript was not working as anticipated or understanding what
+                            different error codes mean. I overcame these obstacles through a myriad of different
+                            strategies that were discussed throughout the course thus far. Some problems required more
+                            reading and research, some just needed a slowdown to digest what the code says, and
+                            sometimes reaching out for help was the right answer. As I said in a previous post, the
+                            willingness of the group and instructors to help each other on any and all topics is very
+                            encouraging and promising for the rest of the bootcamp.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm">
+                <div class="mt-3 card bg-light">
+                    <div class="card-title pl-2 pt-2">
+                        <h2>Week 3 - Intro to JavaScript</h2>
+                        <h4>
+                            <date>9/11/2020</date>
+                        </h4>
+                    </div>
+                    <div class="card-body">
+                        <p>HTML, CSS, and JavaScript each provide important layers to both the user and the
+                            developer for any website. If a developer were to omit any one of these technologies
+                            from their website it would stand out as insufficient in the modern web environment.
+                            A website would have no content without HTML. It would be lifeless and boring without CSS.
+                            And JavaScript is needed to make websites come alive and do something besides
+                            present content.
+                            JavaScript allows developers to create animations, create programs
+                            that do a myriad number of actions, be able to call other servers to utilize
+                            external API's, manipulate data, and many, many other functions that are far beyond
+                            my novice understanding of JavaScript at this point.
+                        </p>
+                        <p>So far, my blog uses a very few objects, but I do have a few examples: images,
+                            iframes, and
+                            anchors
+                            (links). I plan on moving my navigation bar behind a menu button object which will
+                            show/hide the
+                            site
+                            navigation.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm">
+                <div class="mt-3 card bg-light">
+                    <div class="card-title pl-2 pt-2">
+                        <h2>Week 2 - HTML, CSS, and Pseudocode</h2>
+                        <h4>
+                            <date>9/4/2020</date>
+                        </h4>
+                    </div>
+                    <div class="card-body">
+                        <p>I've learned and re-learned a lot of content this week. Since I already had a small base of
+                            knowledge
+                            about HTML and CSS from Awesome Inc's Into to Web Development course,
+                            I decided to approach the material as if I had not read them before and made thorough notes
+                            that could
+                            be used as a quick reference guide. I find that writing also helps me
+                            to retain information better, rather than just reading it.
+                        </p>
+                        <p>The new concept for me this week has been pseudocoding. I can definitely see how pseudocoding
+                            is an
+                            invaluable tool for programming, but also one
+                            that takes a great deal of experience to improve your skill at it. Once I decided my topic
+                            for the
+                            pseudocode assignment, I began mapping out the different functions, objects,
+                            variables, and behaviors for how each of these parts would work together to achieve my
+                            desired outcome.
+                            The scope quickly ballooned far beyond what I had anticipated.
+                            My challenge then turned to working out how the different parts of the program would fit
+                            along the
+                            MoSCoW rubric. Some things were easy to mark as &quot;Won't Do&quot;
+                            or &quot;Could Do&quot; because they would be far too time consuming or complex to work out
+                            their
+                            behavior. Others were harder to know where exactly to assign.
+                            My markdown file ended up being much longer than I had anticipated at the start of the
+                            project, but as I
+                            re-evaluated my work I couldn't see how to remove or simplify any
+                            sections without leaving a big unexplained hole in the code. I'm sure that with more
+                            experience, this
+                            will become more apparent and easier.
+                        </p>
+                        <p>Next week I'm excited to start adding JavaScript to our toolbelt and starting to turn the
+                            pseudocode into
+                            functional
+                            code so that we can begin to add some dynamics to our web pages and bring them up to par
+                            with what is
+                            expected in modern web sites.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm">
+                <div class="mt-3 card bg-light">
+                    <div class="card-title pl-2 pt-2">
+                        <h2>Week 1 - My First Blog Post!</h2>
+                        <h4>
+                            <date>8/27/2020</date>
+                        </h4>
+                    </div>
+                    <div class="card-body">
+                        <p>The first week of bootcamp has been full of ups and downs, aha moments and bouts of
+                            confusion. </p>
+                        <p>I've been very grateful for how responsive and eager everyone is to jump in to tackle
+                            problems in the
+                            help
+                            channel. The fact that we're all brand new to this field but still working through problems
+                            together and
+                            actually
+                            finding solutions is very encouraging. My first major aha moment was when I was able to
+                            understand the
+                            proper order of operations and terminology of Git. My inital understanding of the process
+                            was that the
+                            pull request started your local branch, then you would make your changes on your local
+                            server, commit
+                            the
+                            changes locally, and push your commits back up to the remote server. After reviewing the
+                            documentation
+                            and exercises again I
+                            now see how these commands truly work:</p>
+                        <ul class="list-unstyled">
+                            <li><span class="badge badge-pill badge-dark"><code
+                                        class="bg-dark">$git branch</code></span> : will open a new branch in your repo
+                            </li>
+                            <li><span class="badge badge-pill badge-dark"><code class="bg-dark">$git fetch</code></span>
+                                : will scan a remote server for differences between your local
+                                repo and the
+                                remote repo</li>
+                            <li><span class="badge badge-pill badge-dark"><code class="bg-dark">$git pull</code></span>
+                                : will actually download the commits that you do not have in your
+                                local repo
+                            </li>
+                            <li><span class="badge badge-pill badge-dark"><code class="bg-dark">$git merge</code></span>
+                                : will combine your changes into the master both locally and
+                                remotely</li>
+                        </ul>
+                        <p>Next week I'm looking forward to knocking off the rust and continuing to build on the
+                            knowledge of HTML
+                            and
+                            CSS that
+                            I learned in the Intro to Web Developement class this past spring.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 
-    <main>
-        <article>
-            <h2>Week 3 - Intro to JavaScript</h2>
-            <h4>
-                <date>9/11/2020</date>
-            </h4>
-            <p>HTML, CSS, and JavaScript each provide important layers to both the user and the developer for any
-                website. If a developer were to omit any one of these technologies
-                from their website it would stand out as insufficient in the modern web environment. A website would have
-                no content without HTML. It would be lifeless and boring without CSS.
-                And JavaScript is needed to make websites come alive and do something besides present content.
-                JavaScript allows developers to create animations, create programs
-                that do a myriad number of actions, be able to call other servers to utilize external API's, manipulate
-                data, and many, many other functions that are far beyond
-                my novice understanding of JavaScript at this point.
-            </p>
+    <!-- Footer with contact Info -->
+    <footer class="bg-dark py-3 mt-3" style="position: relative; bottom: 0px;">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col">
+                    <h6 class="text-secondary text-center"> Contact Me</h6>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <ul class="nav list-unstyled justify-content-center">
+                        <li class="nav-item px-3"><i class="fas fa-paper-plane text-secondary" style="width:15px"></i><a
+                                class="text-secondary pl-2"
+                                href="mailto:david.reese.hudson@gmail.com">david.reese.hudson@gmail.com</a></li>
+                        <li class="nav-item px-3"><i class="fas fa-code-branch text-secondary" style="width:15px"></i><a
+                                class="text-secondary pl-2" href="https://github.com/dreesehudson">Github</a>
+                        </li>
+                        <li class="nav-item px-3"><i class="fab fa-linkedin text-secondary" style="width:15px"></i><a
+                                class="text-secondary pl-2" href="https://linkedin.com/dreesehudson">LinkedIn</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
 
-            <p>So far, my blog uses a very few objects, but I do have a few examples: images, iframes, and anchors
-                (links). I plan on moving my navigation bar behind a menu button object which will show/hide the site navigation.
 
-            </p>
-        </article>
-        <article>
-            <h2>Week 2 - HTML, CSS, and Pseudocode</h2>
-            <h4>
-                <date>9/4/2020</date>
-            </h4>
-            <p>I've learned and re-learned a lot of content this week. Since I already had a small base of knowledge
-                about HTML and CSS from Awesome Inc's Into to Web Development course,
-                I decided to approach the material as if I had not read them before and made thorough notes that could
-                be used as a quick reference guide. I find that writing also helps me
-                to retain information better, rather than just reading it.
-            </p>
-            <p>The new concept for me this week has been pseudocoding. I can definitely see how pseudocoding is an
-                invaluable tool for programming, but also one
-                that takes a great deal of experience to improve your skill at it. Once I decided my topic for the
-                pseudocode assignment, I began mapping out the different functions, objects,
-                variables, and behaviors for how each of these parts would work together to achieve my desired outcome.
-                The scope quickly ballooned far beyond what I had anticipated.
-                My challenge then turned to working out how the different parts of the program would fit along the
-                MoSCoW rubric. Some things were easy to mark as &quot;Won't Do&quot;
-                or &quot;Could Do&quot; because they would be far too time consuming or complex to work out their
-                behavior. Others were harder to know where exactly to assign.
-                My markdown file ended up being much longer than I had anticipated at the start of the project, but as I
-                re-evaluated my work I couldn't see how to remove or simplify any
-                sections without leaving a big unexplained hole in the code. I'm sure that with more experience, this
-                will become more apparent and easier.
-            </p>
-            <p>Next week I'm excited to start adding JavaScript to our toolbelt and starting to turn the pseudocode into
-                functional
-                code so that we can begin to add some dynamics to our web pages and bring them up to par with what is
-                expected in modern web sites.
-            </p>
-        </article>
-        <article>
-            <h2>Week 1 - My First Blog Post!</h2>
-            <h4>
-                <date>8/27/2020</date>
-            </h4>
-            <p>The first week of bootcamp has been full of ups and downs, aha moments and bouts of confusion. </p>
-            <p>I've been very grateful for how responsive and eager everyone is to jump in to tackle problems in the
-                help
-                channel. The fact that we're all brand new to this field but still working through problems together and
-                actually
-                finding solutions is very encouraging. My first major aha moment was when I was able to understand the
-                proper order of operations and terminology of Git. My inital understanding of the process was that the
-                pull request started your local branch, then you would make your changes on your local server, commit
-                the
-                changes locally, and push your commits back up to the remote server. After reviewing the documentation
-                and exercises again I
-                now see how these commands truly work:</p>
-            <ul>
-                <li><code>$git branch</code> : will open a new branch in your repo</li>
-                <li><code>$git fetch</code> : will scan a remote server for differences between your local repo and the
-                    remote repo</li>
-                <li><code>$git pull</code> : will actually download the commits that you do not have in your local repo
-                </li>
-                <li><code>$git merge</code> : will combine your changes into the master both locally and remotely</li>
-            </ul>
-            <p>Next week I'm looking forward to knocking off the rust and continuing to build on the knowledge of HTML
-                and
-                CSS that
-                I learned in the Intro to Web Developement class this past spring.</p>
-
-        </article>
-    </main>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
 </body>
-<footer>
-    <h6>Contact Me</h6>
-    <div>
-        <ul>
-            <li><i class="fas fa-paper-plane"></i><a class="grey-text"
-                    href="mailto:david.reese.hudson@gmail.com">david.reese.hudson@gmail.com</a></li>
-            <li><i class="fas fa-code-branch"></i><a class="grey-text" href="https://github.com/dreesehudson">Github</a></li>
-            <li><i class="fab fa-linkedin"></i><a class="grey-text" href="https://linkedin.com/dreesehudson">LinkedIn</a></li>
-        </ul>
-    </div>
-    <p><i>I'm hosted with <a href="https://pages.github.com/">GitHub Pages</a>.</i></p>
-</footer>
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-    crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
-    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
-    crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
-    integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
-    crossorigin="anonymous"></script>
 
 </html>
