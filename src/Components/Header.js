@@ -1,5 +1,3 @@
-
-
 //  <nav>
 //      <a>RH</a>
 //      <button> <span class="navbar-toggler-icon"></span> </button>  
@@ -9,3 +7,15 @@
 //              >>About
 //          </div>
 //  </nav>
+
+class Header extends Component {
+    constructor() {
+        super();
+    }
+
+    render() {
+        return (
+
+        );
+    }
+}
