@@ -21,6 +21,16 @@
     //             </div>
     //         </div>
     //     </div>
-
-
     // </footer>
+
+    class Footer extends Component {
+        constructor() {
+            super();
+        }
+    
+        render() {
+            return (
+    
+            );
+        }
+    }

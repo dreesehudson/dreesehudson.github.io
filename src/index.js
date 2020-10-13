@@ -6,14 +6,7 @@ import './Components/Footer.js';
 import './Components/Post.js';
 import './Javascript/posts.json';
 
-// //render Header Component
-// <Header />
 
-// //render posts Components
-
-
-// //render footer Component
-// <Footer />
 
 class App extends Component {
   constructor() {
@@ -22,20 +15,20 @@ class App extends Component {
 
   render() {
     return (
-      <div className="App container" >
-        <Header
-          pages={this.pages}
-        />
-      </div>
+
     )
   }
 }
 
-export default App;
 
 ReactDOM.render(
-  <React.StrictMode>
-  </React.StrictMode>,
+// //render Header Component
+
+// //render posts Components
+  
+
+// //render footer Component
+// <Footer />
   document.getElementById('root')
 );
 
