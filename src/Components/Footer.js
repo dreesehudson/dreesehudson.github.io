@@ -1,43 +1,37 @@
-    // <!-- Footer with contact Info -->
-    // <footer class="bg-dark py-3 mt-3" style="position: relative; bottom: 0px;">
-    //     <div class="container-fluid">
-    //         <div class="row">
-    //             <div class="col">
-    //                 <h6 class="text-secondary text-center"> Contact Me</h6>
-    //             </div>
-    //         </div>
-    //         <div class="row">
-    //             <div class="col">
-    //                 <ul class="nav list-unstyled justify-content-center">
-    //                     <li class="nav-item px-3"><i class="fas fa-paper-plane text-secondary" style="width:15px"></i><a
-    //                             class="text-secondary pl-2"
-    //                             href="mailto:david.reese.hudson@gmail.com">david.reese.hudson@gmail.com</a></li>
-    //                     <li class="nav-item px-3"><i class="fas fa-code-branch text-secondary" style="width:15px"></i><a
-    //                             class="text-secondary pl-2" href="https://github.com/dreesehudson">Github</a>
-    //                     </li>
-    //                     <li class="nav-item px-3"><i class="fab fa-linkedin text-secondary" style="width:15px"></i><a
-    //                             class="text-secondary pl-2" href="https://linkedin.com/dreesehudson">LinkedIn</a></li>
-    //                 </ul>
-    //             </div>
-    //         </div>
-    //     </div>
-    // </footer>
+// <!-- Footer with contact Info -->
 
-    import React, {Component} from 'react'
-    
-    class Footer extends Component {
-        constructor(props) {
-            super(props);
-        }
-    
-        render() {
-            return(
-                <p>
-                    Footer
-                </p>
-            );
-        }
-    
+import React, { Component } from 'react'
+
+class Footer extends Component {
+    constructor(props) {
+        super(props);
     }
-    
-    export default Footer
+
+    render() {
+        return (
+            <div className="container bg-primary">
+                <div className="row my-2">
+                    <div className="col">
+                        <h6 className="text-light text-center"> Contact Me</h6>
+                    </div>
+                </div>
+                <div className="row my-2">
+                    <div className="col">
+                        <ul className="nav list-unstyled justify-content-center">
+                            <li className="nav-item px-3"><i className="fas fa-paper-plane text-light"></i><a
+                                className="text-light pl-2"
+                                href="mailto:david.reese.hudson@gmail.com">david.reese.hudson@gmail.com</a></li>
+                            <li className="nav-item px-3"><i className="fas fa-code-branch text-light"></i><a
+                                className="text-light pl-2" href="https://github.com/dreesehudson">Github</a>
+                            </li>
+                            <li className="nav-item px-3"><i className="fab fa-linkedin text-light"></i><a
+                                className="text-light pl-2" href="https://linkedin.com/dreesehudson">LinkedIn</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        );
+    }
+}
+
+export default Footer

@@ -1,0 +1,233 @@
+{
+    "posts": [
+        {
+            "author": "Reese Hudson",
+            "date": "10/11/2020",
+            "title": "Week 3 - MVC, Classes, and More JS",
+            "content": "<p>This was by far the most challenging week of bootcamp that we've had yet. But 
+                    I think it was also the week that has produced the most growth. The pair pseudocoding 
+                    exercise that we did this week was a great at forcing us to vocalize how we would 
+                    go about solving different aspects of the project and be able to listen and understand
+                    someone elses perspective and way to solve it as well.
+                </p>
+                <h4>What are three ideas you might want to do for your final project?</h4>
+                <p>Now that we're officially 25% through the program (which is unbelievable, I feel like 
+                    we still have just started), it's time to begin thinking about a couple of capstone project ideas and 
+                    features for each one. 
+                </p>
+                <ul>
+                    <li>
+                        Sports League Manager - Individual and Team Signups, Roster Management, Game Scheduler, 
+                        Referee Assignments, League Standings.
+                    </li>
+                    <li>
+                        Personal Finance Budgeting App - Monthly Budgeting Page, Reports, and Bank Account Tracking
+                    </li>
+                </ul>
+                <h4>What aspects about JavaScript are you interested in learning more about?</h4>
+                <p>I'm ready to learn about React because of how it can fast-forward your ability to make your projects.
+
+                </p>
+                <h4>What are your thoughts about the MVC Design Pattern?</h4>
+                <p>I can certainly see advantages to utilizing the Model-View-Controller Design Pattern because it 
+                    establishes clear roles and responsibilities to sections of your code. Without these structures, 
+                    everyones program takes more time to digest how it operates and this opens up more opportunities 
+                    for error. Which is the biggest enemy of any programmer. I still have quite a bit to learn about
+                    using MVC, but I'm looking forward to trying to use it with React next week.
+                </p>"
+        },
+        {
+            "author": "Reese Hudson",
+            "date": "10/4/2020",
+            "title": "Week 2 - Learning What It Takes To Be A Developer",
+            "content":"<h4>What does it mean to develop good code?</h4>
+                <p>
+                    Good code has to be functional, readable, maintainable, and efficient. First of all good
+                    code has to achieve a solution to the problem it was trying to solve. If it doesn't work
+                    as intended or produces wrong results it cannot be considered good code. Good code also has
+                    to be
+                    readable and maintainable. It's important to use practices that are common throughout the
+                    industry so that whenever another developer or simply your future self needs to work on your
+                    code
+                    it is easy to understand by being able to read good documentation in the form of logical
+                    structural patters,
+                    standard formatting, and clear commenting. Lastly good code needs to be efficient. There are
+                    many ways to
+                    solve each problem and if you can do the same amount of work in less code it is typically
+                    better to utilize the method
+                    with less code. This leads to fewer opportunities for errors and more maintainable code as
+                    well.
+                </p>
+                <h4> What does it mean to be a good developer?</h4>
+                <p>
+                    Being a good developer is more than being a good programmer. Good developers need to excel
+                    in
+                    communication with clients, working on a team, problem solving, along with having all of the
+                    necessary
+                    technical knowledge and skills.
+                </p>
+                <h4>What is one thing that programmers hate doing?</h4>
+                <p>
+                    Programmers hate &ldquo;WET&rdquo; code. WET stands for many things: Write Every Time, Write Everything
+                    Twice,
+                    We Enjoy Typing or Waste Everyone's Time. Basically we hate repeating ourselves in our code.
+                    Instead
+                    we want to write &ldquo;DRY&rdquo; code. This stands for Don't Repeat Yourself. This principle serves
+                    two main purposes:
+                    more efficient code saves time and resources, but also repeated code is an additional source
+                    of possible errors.
+                </p>"
+        },
+        {
+            "author": "Reese Hudson",
+            "date": "9/27/2020",
+            "title": "Week 1 - JavaScript and Bootstrap 4",
+            "content": "<p>
+                    It was very exciting to get started with the in-person portion of the bootcamp this week.
+                    Setting up the learning space in a way to maximize our capability to learn was very
+                    beneficial, but I think one drawback that each student faced was the tendency to compare
+                    each other's progress or starting point against each other. By the end of the week, through
+                    different exercises and the very impactful discussion led by Dr. Murphy, I think the entire
+                    cohort was able to lower our guard and fear of showing weakness which will give every one of
+                    us the ability to progress at a greater rate and become better programmers.
+                </p>
+                <p>
+                    I'm looking forward to learn more about how to utilize JavaScript and JSON to bring data
+                    from external sources to make our websites more beneficial and serve a purpose besides
+                    displaying hard coded information. I'd also like to continue learning about how to better
+                    utilize Bootstrap to work with images. I have a basic understanding but that was the main
+                    area where I found myself falling back to using custom CSS to handle image formatting.
+                </p>"
+        },
+        {
+            "author": "Reese Hudson",
+            "date": "9/19/2020",
+            "title": "Pre-Work Week 4 - JavaScript (Round 2)",
+            "content": "<p>It's the final day of Prework! While it has felt like I've been drinking straight from a
+                    firehose up until now, I know that the intensity is about to jump up to another level. It
+                    was a huge benefit to have a small background in the different topics that we have been we
+                    learning about in Pre-work because of the Intro to Web Development class, but there were
+                    still new problems to solve with each and every topic. My biggest challenge was being able
+                    to debug and understand why JavaScript was not working as anticipated or understanding what
+                    different error codes mean. I overcame these obstacles through a myriad of different
+                    strategies that were discussed throughout the course thus far. Some problems required more
+                    reading and research, some just needed a slowdown to digest what the code says, and
+                    sometimes reaching out for help was the right answer. As I said in a previous post, the
+                    willingness of the group and instructors to help each other on any and all topics is very
+                    encouraging and promising for the rest of the bootcamp.</p>"
+        },
+        {
+            "author": "Reese Hudson",
+            "date": "9/11/2020",
+            "title": "Pre-Work Week 3 - Intro to JavaScript",
+            "content":"<p>HTML, CSS, and JavaScript each provide important layers to both the user and the
+                    developer for any website. If a developer were to omit any one of these technologies
+                    from their website it would stand out as insufficient in the modern web environment.
+                    A website would have no content without HTML. It would be lifeless and boring without CSS.
+                    And JavaScript is needed to make websites come alive and do something besides
+                    present content.
+                    JavaScript allows developers to create animations, create programs
+                    that do a myriad number of actions, be able to call other servers to utilize
+                    external API's, manipulate data, and many, many other functions that are far beyond
+                    my novice understanding of JavaScript at this point.
+                </p>
+                <p>So far, my blog uses a very few objects, but I do have a few examples: images,
+                    iframes, and
+                    anchors
+                    (links). I plan on moving my navigation bar behind a menu button object which will
+                    show/hide the
+                    site
+                    navigation.
+                </p>"
+        },
+        {
+            "author": "Reese Hudson",
+            "date": "9/4/2020",
+            "title": "Pre-Work Week 2 - HTML, CSS, and Pseudocode",
+            "content": "<p>I've learned and re-learned a lot of content this week. Since I already had a small base of
+                    knowledge
+                    about HTML and CSS from Awesome Inc's Into to Web Development course,
+                    I decided to approach the material as if I had not read them before and made thorough notes
+                    that could
+                    be used as a quick reference guide. I find that writing also helps me
+                    to retain information better, rather than just reading it.
+                </p>
+                <p>The new concept for me this week has been pseudocoding. I can definitely see how pseudocoding
+                    is an
+                    invaluable tool for programming, but also one
+                    that takes a great deal of experience to improve your skill at it. Once I decided my topic
+                    for the
+                    pseudocode assignment, I began mapping out the different functions, objects,
+                    variables, and behaviors for how each of these parts would work together to achieve my
+                    desired outcome.
+                    The scope quickly ballooned far beyond what I had anticipated.
+                    My challenge then turned to working out how the different parts of the program would fit
+                    along the
+                    MoSCoW rubric. Some things were easy to mark as &quot;Won't Do&quot;
+                    or &quot;Could Do&quot; because they would be far too time consuming or complex to work out
+                    their
+                    behavior. Others were harder to know where exactly to assign.
+                    My markdown file ended up being much longer than I had anticipated at the start of the
+                    project, but as I
+                    re-evaluated my work I couldn't see how to remove or simplify any
+                    sections without leaving a big unexplained hole in the code. I'm sure that with more
+                    experience, this
+                    will become more apparent and easier.
+                </p>
+                <p>Next week I'm excited to start adding JavaScript to our toolbelt and starting to turn the
+                    pseudocode into
+                    functional
+                    code so that we can begin to add some dynamics to our web pages and bring them up to par
+                    with what is
+                    expected in modern web sites.
+                </p>"
+        },
+        {
+            "author": "Reese Hudson",
+            "date": "8/27/2020",
+            "title": "Pre-Work Week 1 - My First Blog Post!",
+            "content": "<p>The first week of bootcamp has been full of ups and downs, aha moments and bouts of
+                    confusion. </p>
+                <p>I've been very grateful for how responsive and eager everyone is to jump in to tackle
+                    problems in the
+                    help
+                    channel. The fact that we're all brand new to this field but still working through
+                    problems
+                    together and
+                    actually
+                    finding solutions is very encouraging. My first major aha moment was when I was able to
+                    understand the
+                    proper order of operations and terminology of Git. My initial understanding of the
+                    process
+                    was that the
+                    pull request started your local branch, then you would make your changes on your local
+                    server, commit
+                    the
+                    changes locally, and push your commits back up to the remote server. After reviewing the
+                    documentation
+                    and exercises again I
+                    now see how these commands truly work:</p>
+                <ul>
+                    <li><span><code>$git branch</code></span> : will
+                        open a new branch in your repo
+                    </li>
+                    <li><span><code>$git fetch</code></span>
+                        : will scan a remote server for differences between your local
+                        repo and the
+                        remote repo</li>
+                    <li><span><code>$git pull</code></span>
+                        : will actually download the commits that you do not have in your
+                        local repo
+                    </li>
+                    <li><span><code>$git merge</code></span>
+                        : will combine your changes into the master both locally and
+                        remotely</li>
+                </ul>
+                <p>Next week I'm looking forward to knocking off the rust and continuing to build on the
+                    knowledge of HTML
+                    and
+                    CSS that
+                    I learned in the Intro to Web Development class this past spring.</p>"
+        }
+    ]
+}
