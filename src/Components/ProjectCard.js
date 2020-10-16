@@ -28,8 +28,9 @@ class ProjectCard extends Component {
 
     render() {
         return (
-
-        );
+            <>
+            </>
+        )
     }
 }
 
