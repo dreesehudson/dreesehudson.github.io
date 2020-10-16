@@ -1,5 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import 'bootstrap/dist/css/bootstrap.css';
+// Put any other imports below so that CSS from your
+// components takes precedence over default styles.
 import './index.css';
 import './Components/Header.js';
 import './Components/Footer.js';
@@ -22,13 +25,15 @@ class App extends Component {
 
 
 ReactDOM.render(
-// //render Header Component
+  // //render Header Component
 
-// //render posts Components
-  
+  // //render posts Components
 
-// //render footer Component
-// <Footer />
+
+  // //render footer Component
+  // <Footer />
+  <React.StrictMode>
+  </React.StrictMode>,
   document.getElementById('root')
 );
 
