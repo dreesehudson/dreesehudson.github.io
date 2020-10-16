@@ -18,8 +18,10 @@
 //         </div>
 //     </div>
 // </div>
+import React, {Component} from 'react'
 
-class Project-Card extends Component {
+
+class ProjectCard extends Component {
     constructor() {
         super();
     }
@@ -30,3 +32,5 @@ class Project-Card extends Component {
         );
     }
 }
+
+export default ProjectCard

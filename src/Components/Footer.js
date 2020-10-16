@@ -23,14 +23,21 @@
     //     </div>
     // </footer>
 
+    import React, {Component} from 'react'
+    
     class Footer extends Component {
-        constructor() {
-            super();
+        constructor(props) {
+            super(props);
         }
     
         render() {
-            return (
-    
+            return(
+                <p>
+                    Footer
+                </p>
             );
         }
+    
     }
+    
+    export default Footer

@@ -1,3 +1,5 @@
+import React, {Component} from 'react'
+
 class Post extends Component {
     constructor() {
         super();
@@ -9,3 +11,4 @@ class Post extends Component {
         );
     }
 }
+export default Post

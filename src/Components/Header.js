@@ -1,21 +1,16 @@
-//  <nav>
-//      <a>RH</a>
-//      <button> <span class="navbar-toggler-icon"></span> </button>  
-//          <div id="navbarNav">
-//              >>Blog
-//              >>Projects
-//              >>About
-//          </div>
-//  </nav>
+import React, { Component } from 'react'
 
 class Header extends Component {
-    constructor() {
-        super();
+    constructor(props) {
+        super(props);
     }
 
     render() {
         return (
-
+            <p>Header</p>
         );
-    }
 }
+
+}
+
+export default Header

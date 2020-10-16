@@ -3,25 +3,7 @@ import ReactDOM from 'react-dom';
 import 'bootstrap/dist/css/bootstrap.css';
 // Put any other imports below so that CSS from your
 // components takes precedence over default styles.
-import './index.css';
-import './Components/Header.js';
-import './Components/Footer.js';
-import './Components/Post.js';
-import './Javascript/posts.json';
-
-
-
-class App extends Component {
-  constructor() {
-    super();
-  }
-
-  render() {
-    return (
-
-    )
-  }
-}
+import App from './App.js';
 
 
 ReactDOM.render(
@@ -33,6 +15,7 @@ ReactDOM.render(
   // //render footer Component
   // <Footer />
   <React.StrictMode>
+      <App />
   </React.StrictMode>,
   document.getElementById('root')
 );
