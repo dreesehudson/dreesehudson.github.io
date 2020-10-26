@@ -8,7 +8,7 @@
 //         </div>
 //         <div class="card-body">
 //             <h3 class="card-title text-center">Classy Calculator</h3>
-//             <p class="card-text text-center">Basic Calcualtor made using JS Classes</p>
+//             <p class="card-text text-center">Basic Calculator made using JS Classes</p>
 //         </div>
 //         <div class="card-footer d-flex justify-content-center bg-secondary border-0 ">
 //             <a href="https://dreesehudson.github.io/classic-calculator/" target="_blank"
@@ -18,20 +18,13 @@
 //         </div>
 //     </div>
 // </div>
-import React, {Component} from 'react'
+import React from 'react'
 
 
-class ProjectCard extends Component {
-    constructor() {
-        super();
-    }
-
-    render() {
-        return (
-            <>
-            </>
-        )
-    }
+function ProjectCard() {
+    return (
+        
+    );
 }
 
 export default ProjectCard

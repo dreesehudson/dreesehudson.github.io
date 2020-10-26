@@ -1,15 +1,10 @@
 // <!-- Footer with contact Info -->
 
-import React, { Component } from 'react'
+import React from 'react'
 
-class Footer extends Component {
-    constructor(props) {
-        super(props);
-    }
-
-    render() {
+function Footer () {
         return (
-            <div className="container bg-primary">
+            <div className="container-fluid bg-primary">
                 <div className="row my-2">
                     <div className="col">
                         <h6 className="text-light text-center"> Contact Me</h6>
@@ -31,7 +26,7 @@ class Footer extends Component {
                 </div>
             </div>
         );
-    }
+    
 }
 
 export default Footer
