@@ -1,27 +1,59 @@
 import React, { Component } from 'react';
 //importing Components
 import Header from './Components/Header.js'
-//import Blog_Post from './Components/Post.js'
 import Footer from './Components/Footer.js'
-//import Posts from './Javascript/posts.json'
+//importing Content Data
+//import blogPosts from './Data/blog_posts.js'
 
 class App extends Component {
     constructor() {
         super();
         this.state = {
-            // posts: {JSON.parse(Posts)}
+
         }
-            
-        
+
+        this.pages = [
+            {
+                "page": "Blog",
+                "path": "/index.html",
+                "icon": "fas fa-angle-double-right"
+                // 'data': blogPosts
+            },
+            {
+                "page": "Projects",
+                "path": "/pages/projects.html",
+                "icon": "fas fa-project-diagram",
+                // 'data': ''
+            }]
+
+        this.contact = [
+            {
+                "name": "david.reese.hudson@gmail.com",
+                "path": "mailto:david.reese.hudson@gmail.com",
+                "icon": "fas fa-paper-plane"
+                // 'data': blogPosts
+            },
+            {
+                "name": "GitHub",
+                "path": "https://github.com/dreesehudson",
+                "icon": "fas fa-code-branch",
+                // 'data': ''
+            },
+            {
+                "name": "LinkedIn",
+                "path": "https://www.linkedin.com/in/dreesehudson/",
+                "icon": "fab fa-linkedin",
+                // 'data': ''
+            }
+        ]
     }
 
     render() {
         return (
-        <div className="App container-fluid">
-            <Header />
-            {/* <Blog_Post posts="this.state.posts"/> */}
-            <Footer />
-        </div>
+            <div className="App container-fluid">
+                <Header pages={this.pages} />
+                <Footer contact={this.contact} />
+            </div>
         )
     }
 }
