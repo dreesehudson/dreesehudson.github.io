@@ -14,7 +14,7 @@ function Footer(props) {
                     <Nav className="list-unstyled justify-content-center mb-3">
                         {props.contact.map((item, idx) =>
                             <NavItem key={idx} className="px-3"><i className="{item.icon} text-light"></i>
-                                <a className="text-light pl-2" href={item.path}>
+                                <a className="text-light pl-2" target="_blank" rel='noopener noreferrer' href={item.path}>
                                     {item.name}
                                 </a>
                             </NavItem>

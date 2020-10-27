@@ -1,4 +1,6 @@
 import React, { useState } from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faAngleDoubleRight } from '@fortawesome/free-solid-svg-icons'
 import {
     Collapse,
     Navbar,
@@ -23,9 +25,10 @@ const Header = (props) => {
                     <Nav className="ml-auto" navbar>
                         {props.pages.map((item, idx) =>
                             <NavItem key={idx}>
-                                <NavLink className="text-light" href={item.path}>
-                                    <i className={item.icon}></i>
-                                    {item.page}</NavLink>
+                                <NavLink className="text-light" onClick={() => props.setPage(item.path)}>
+                                    <FontAwesomeIcon icon={item.icon}></FontAwesomeIcon>
+                                    {item.page}
+                                </NavLink>
                             </NavItem>
                         )}
                     </Nav>
