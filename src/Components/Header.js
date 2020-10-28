@@ -1,42 +1,61 @@
 import React, { useState } from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faAngleDoubleRight } from '@fortawesome/free-solid-svg-icons'
 import {
-    Collapse,
-    Navbar,
-    NavbarToggler,
-    NavbarBrand,
-    Nav,
-    NavItem,
-    NavLink
+  Collapse,
+  Navbar,
+  NavbarToggler,
+  NavbarBrand,
+  Nav,
+  NavItem,
+  NavLink
+
 } from 'reactstrap';
 
-const Header = (props) => {
-    const [isOpen, setIsOpen] = useState(false);
+const Example = (props) => {
+  const [isOpen, setIsOpen] = useState(false);
 
-    const toggle = () => setIsOpen(!isOpen);
+  const toggle = () => setIsOpen(!isOpen);
 
-    return (
-        <>
-            <Navbar className="bg-primary fixed-top" light expand="sm">
-                <NavbarBrand className="text-light" href="/">RH</NavbarBrand>
-                <NavbarToggler className="bg-light" onClick={toggle} />
-                <Collapse isOpen={isOpen} navbar>
-                    <Nav className="ml-auto" navbar>
-                        {props.pages.map((item, idx) =>
-                            <NavItem key={idx}>
-                                <NavLink className="text-light" onClick={() => props.setPage(item.path)}>
-                                    <FontAwesomeIcon icon={item.icon}></FontAwesomeIcon>
-                                    {item.page}
-                                </NavLink>
-                            </NavItem>
-                        )}
-                    </Nav>
-                </Collapse>
-            </Navbar>
-        </>
-    );
+  return (
+    <div className="fixed-top">
+      <Navbar className="bg-primary" expand="md">
+        <NavbarBrand className="text-light" href="/">RH</NavbarBrand>
+        <NavbarToggler className="bg-light border-dark" onClick={toggle}>Menu</NavbarToggler>
+        <Collapse isOpen={isOpen} navbar>
+          <Nav className="ml-auto" navbar>
+            <NavItem className="ml-auto">
+              <NavLink className="text-light" href="/components/">Blog</NavLink>
+            </NavItem>
+            <NavItem className="ml-auto">
+              <NavLink className="text-light" href="/components/">Projects</NavLink>
+            </NavItem>
+          </Nav>
+        </Collapse>
+      </Navbar>
+    </div>
+  );
 }
+
+export default Example;
+
+//                 <Navbar className="bg-primary fixed-top" light expand="sm">
+//     <NavbarBrand className="text-light" href="/">RH</NavbarBrand>
+//     <NavbarToggler className="bg-light" onClick={toggle} />
+//     <Collapse isOpen={isOpen} navbar>
+//         <Nav className="ml-auto" navbar>
+//             {this.state.map((item, idx) =>
+//                 <NavItem key={idx}>
+//                     <NavLink className="text-light">
+//                         {item.icon}
+//                         {item.page}
+//                     </NavLink>
+//                 </NavItem>
+//             )}
+//         </Nav>
+//     </Collapse>
+// </Navbar>
+
+
+
 
 // <header>
 //     <Nav className="navbar navbar-expand-sm navbar-primary bg-primary fixed-top">
@@ -74,4 +93,3 @@ const Header = (props) => {
 
 
 
-export default Header

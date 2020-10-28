@@ -1,9 +1,11 @@
 import React from 'react'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faPaperPlane, faCodeBranch, faLinkedin } from '@fortawesome/free-solid-svg-icons'
 import { Nav, NavItem, Row, Col } from 'reactstrap';
 
 function Footer(props) {
     return (
-        <div className="container-fluid bg-primary fixed-bottom">
+        <div className="container-fluid bg-primary">
             <Row className="my-2">
                 <Col>
                     <h6 className="text-light text-center mt-3"> Contact Me</h6>

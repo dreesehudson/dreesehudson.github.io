@@ -1,11 +1,19 @@
 import React, { Component } from 'react';
 //importing Components
 import Header from './Components/Header.js'
+import Portfolio from './Components/Portfolio.js'
+import Blog from './Components/Blog.js'
 import Footer from './Components/Footer.js'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faAngleDoubleRight } from '@fortawesome/free-solid-svg-icons'
 //importing Content Data
-//import blogPosts from './Data/blog_posts.js'
+import blogPosts from './Data/blogPostsData.js'
+import projectData from './Data/projectData.js'
+import calculator from './img/calculator.png'
+import countdownTimer from './img/countdown-timer.png'
+import digitalClock from './img/digital-clock.png'
+import mindReader from './img/mind-reader.png'
+import sam from './img/sam.png'
+import ticTacToe from './img/tic-tac-toe.png'
+import weatherApp from './img/weather-app.png'
 
 class App extends Component {
     constructor() {
@@ -14,37 +22,35 @@ class App extends Component {
             currentPage: 0,
             blogPosts: []
         }
-        this.pages = [
-            {
-                "page": "Blog",
-                "path": "/index.html",
-                "icon": "faAngleDoubleRight"
-                // 'data': blogPosts
-            },
-            {
-                "page": "Projects",
-                "path": "/pages/projects.html",
-                "icon": "faProjectDiagram",
-                // 'data': ''
-            }]
+        this.blog =
+        {
+            "page": "Blog",
+            "component": "",
+            "icon": "<FontAwesomeIcon icon={faAngleDoubleRight}></FontAwesomeIcon>",
+            "data": blogPosts
+        }
+        this.projects =
+        {
+            "page": "Projects",
+            "component": "",
+            "icon": "<FontAwesomeIcon icon={faProjectDiagram}></FontAwesomeIcon>",
+            "data": projectData
+        }
         this.contact = [
             {
                 "name": "david.reese.hudson@gmail.com",
                 "path": "mailto:david.reese.hudson@gmail.com",
-                "icon": "faPaperPlane"
-                // 'data': blogPosts
+                "icon": "<FontAwesomeIcon icon={faPaperPlane}></FontAwesomeIcon>"
             },
             {
                 "name": "GitHub",
                 "path": "https://github.com/dreesehudson",
-                "icon": "faCodeBranch",
-                // 'data': ''
+                "icon": "<FontAwesomeIcon icon={faCodeBranch}></FontAwesomeIcon>",
             },
             {
                 "name": "LinkedIn",
                 "path": "https://www.linkedin.com/in/dreesehudson/",
-                "icon": "faLinkedin",
-                // 'data': ''
+                "icon": "<FontAwesomeIcon icon={faLinkedin}></FontAwesomeIcon>",
             }
         ]
         this.setPage = this.setPage.bind(this);
@@ -64,13 +70,24 @@ class App extends Component {
 
     render() {
         return (
-            <div className="App container-fluid">
-                <Header
-                    pages={this.pages}
-                    currentPage={this.state.currentPage}
-                    setPage={this.setPage} />
-                <Footer contact={this.contact} />
-            </div>
+            <>
+                <div className="App container-fluid">
+                    <Header />
+
+                    {/* Body Content Projects */}
+                    <Portfolio
+                        projects={this.projects} />
+
+                    {/* Body Content Blogs */}
+                    <Blog
+                        pages={this.blog} />
+
+                {/* <p>{projectData[0].name}</p> */}
+                    <Footer
+                        contact={this.contact} />
+
+                </div>
+            </>
         )
     }
 }
