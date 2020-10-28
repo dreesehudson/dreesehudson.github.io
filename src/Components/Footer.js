@@ -5,7 +5,7 @@ import { Nav, NavItem, Row, Col } from 'reactstrap';
 
 function Footer(props) {
     return (
-        <div className="container-fluid bg-primary">
+        <div className="container-fluid fixed-bottom bg-primary">
             <Row className="my-2">
                 <Col>
                     <h6 className="text-light text-center mt-3"> Contact Me</h6>
